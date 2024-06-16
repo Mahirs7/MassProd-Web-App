@@ -1,0 +1,46 @@
+/* src/components/ProjectDetails.css */
+.project-details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.project-navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-navbar .project-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.project-navbar a {
+    margin-left: 20px;
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-navbar a:hover {
+    color: #1e40af;
+}
+
+.btn-back {
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-back:hover {
+    background-color: #1e40af;
+}

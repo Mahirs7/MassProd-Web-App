@@ -1,0 +1,85 @@
+/* src/components/ProjectList.css */
+
+.project-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7fafc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-description {
+    color: #718096;
+}
+
+.project-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-view {
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-view:hover {
+    background-color: #3182ce;
+}
+
+.project-assigned-users {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.users-icon {
+    color: #718096;
+}
+
+.assigned-users {
+    color: #718096;
+}
+
+.assigned-users span::after {
+    content: ", ";
+}
+
+.assigned-users span:last-child::after {
+    content: "";
+}
